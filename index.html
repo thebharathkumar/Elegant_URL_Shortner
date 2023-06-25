@@ -4,54 +4,60 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- displays site properly based on user's device -->
+
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/11.png">
 
   <title>URLicious</title>
 
-  <!-- Linking the CSS Sheet -->
+
   <link rel="stylesheet" href="css/style.css">
 
-  <!-- Fonts -->
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
 </head>
 
 <body>
-  
+  <nav class="navbar">
     <div class="logo">
-      <img src="images/11.png" alt="" width="100">
+      <img src="images/11.png" alt="" width="170">
     </div>
+    <div class="hamburgerIcon">
+      <p class="bar1"></p>
+      <p class="bar2"></p>
+      <p class="bar3"></p>
+    </div>
+    
    
-    
-    
-
+  </nav>
 
   <header class="header">
     <article class="content">
-      <h2>The most Elegant Url Shortner</h2> 
+      <h2>Create the best anonymous and elegant URL</h2>
+      <p>Build your URL’s recognition</p>
+      <button class="getStarted">Get Started</button>
     </article>
     <div class="illustration">
-      <img src="images/cat.png" alt="Elegant" width="" height="400">
+      <img src="images/main.svg" alt="" width="500">
     </div>
   </header>
 
   <main class="formContainer">
     <div class="form">
       <div class="wrapper">
-        <input type="text" placeholder="Shorten your links here..." id="link" class="default" wrongLink = "Please add a link..">
-        <button class="submit" id="shorten">Shorten It!</button>
+        <input type="text" placeholder="Shorten your links here..." id="link" class="default" wrongLink = "First add a link..">
+        <button class="submit" id="shorten">Let's go</button>
       </div>
       <p class="wrongLinkText">Please add a link</p>
     </div>
     <div class="linksContainer">
     </div>
     <div class="infoContainer">
-      
+      <h2>Advanced Algorithm</h2>
+     
     </div>
     <div class="boxesContainer">
       <div class="cards" id="brand">
@@ -59,8 +65,8 @@
           <img src="/images/icon-brand-recognition.svg" alt="" srcset="">
         </div>
         <div class="cardsContent">
-          <h2>Simple</h2>
-          <p></p>
+          <h2>Simple </h2>
+          <p>Simple URLs refer to URLs that are short, concise, and easy to read and understand. They typically contain only essential information and avoid unnecessary complexity. </p>
         </div>
       </div>
       <div class="cards" id="detailed">
@@ -68,8 +74,8 @@
           <img src="/images/icon-detailed-records.svg" alt="" srcset="">
         </div>
         <div class="cardsContent">
-          <h2>Quick</h2>
-          <p></p>
+          <h2>Secure</h2>
+          <p>URL shortening services can help protect users from malicious or suspicious URLs. They often provide security measures such as link scanning and blacklisting to prevent the distribution of harmful content.</p>
         </div>
       </div>
       <div class="cards" id="custom">
@@ -77,13 +83,11 @@
           <img src="/images/icon-fully-customizable.svg" alt="" srcset="">
         </div>
         <div class="cardsContent">
-          <h2>Fully Customizable</h2>
-          <p></p>
+          <h2>AEsthetic</h2>
+          <p> Long and complex URLs can appear cluttered and visually unappealing. Shortened URLs are cleaner and more visually pleasing, particularly when shared in limited character spaces, such as on Twitter.</p>
         </div>
       </div>
     </div>
-
-    
     <div class="advert">
       <h2>Shorten your links today</h2>
       <button class="getStarted">Get Started</button>
@@ -92,14 +96,8 @@
 
   <footer class="footer">
     <div class="flogo">
-      <img src="/images/11.png" alt="" width="170" >
+      <img src="/images/11.png" alt="" width="170">
     </div>
-    
-    <ul class="footerList">
-      <li class="fListItem">Resources</li>
-      <li class="fListItem">Blog</li>
-      <li class="fListItem">Developers</li>
-    </ul>
     <ul class="footerList">
       <li class="fListItem">Team</li>
       <li class="fListItem">Bharath</li>
@@ -107,6 +105,13 @@
       <li class="fListItem">Gahan</li>
       <li class="fListItem">Gnanesh</li>
     </ul>
+    <ul class="footerList">
+      <li class="fListItem">Resources</li>
+      <li class="fListItem">Blog</li>
+      <li class="fListItem">Developers</li>
+      <li class="fListItem">Support</li>
+    </ul>
+  
     <ul class="socialIcons">
       <li class="sListItem"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
           <path fill="#FFF"
@@ -123,8 +128,8 @@
       <li class="sListItem"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path fill="#FFF" d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg></li>
     </ul>
     <div class="attribution">
-      Web Development project <a href="www.jyothyit.ac.in" target="_blank">JIT</a>.
-      Coded by <a href="" target="__blank">Liquid</a>.
+      Web Development project by <a href="" target="_blank">JIT</a>.
+      Coded by <a href="" target="__blank">Team 6</a>.
     </div>
   </footer>
 

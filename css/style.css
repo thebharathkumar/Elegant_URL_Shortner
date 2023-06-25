@@ -1,6 +1,6 @@
 :root{
     /* Primary Colors */
-    --primaryCyan : hsl(264, 59%, 61%);
+    --primaryCyan : hsl(295, 73%, 70%);
     --primaryDarkViolet: hsl(257, 27%, 26%);
 
     /* Secondary Colors */
@@ -175,7 +175,7 @@ body{
   margin-bottom: 0;
   font-weight: 700;
   color: var(--veryDarkBlue);
-  letter-spacing: -9px;
+  letter-spacing: -4px;
 }
 
 .content {
@@ -259,7 +259,7 @@ body{
    align-items: center;
    justify-content: center;
    background-image: url(/images/bg-shorten-desktop.svg);
-   background-color: var(--primaryDarkViolet);
+   background-color: rgb(112, 92, 244);
    width: 80%;
    height: 9rem;
    border-radius: 20px;
@@ -306,7 +306,7 @@ body{
   position: relative;
   cursor: pointer;  
   margin: 0.3rem;
-   background-color: var(--primaryCyan);
+   background-color: var(--grayishViolet);
    border-radius: 10px;
    font-size: 1rem;
    font-weight: 700;
@@ -318,7 +318,7 @@ body{
 }
 
 .submit:hover{
-  background-color:hsl(180, 77%, 76%);
+  background-color:hsl(320, 90%, 57%);
   transform: scale(1.05);
 }
 
@@ -363,7 +363,7 @@ body{
 }
 
 .copyLink:hover{
-  background-color:hsl(180, 77%, 76%);
+  background-color:hsl(289, 93%, 57%);
   transform: scale(1.05);
 }
 
@@ -514,7 +514,7 @@ body{
   .boxesContainer{
     flex-wrap: wrap;
     height: auto;
-    background-color: aliceblue;
+    background-image: url(/images/verticalLine.png);
     background-size:contain;
     background-repeat: no-repeat;
     background-position-x: -10px;
@@ -535,7 +535,7 @@ body{
   .boxesContainer{
     flex-wrap: wrap;
     height: auto;
-    background-color:darkslateblue
+    background-image: url(/images/verticalLineMobile.png);
     background-size:contain;
     background-repeat: no-repeat;
     background-position-x: 0;
@@ -592,7 +592,7 @@ body{
 .footer{
   display: grid;
   grid-template-columns: repeat(auto-fill,minmax(8rem,1fr));
-  color: rgb(255, 255, 255);
+  color: white;
   background-color: black;
 }
 
@@ -601,12 +601,8 @@ body{
 }
 
 .flogo img{
-  padding-left: 1.5in;
-  padding-top: 1in;
-  left: 30;
-  right: auto;
-  margin-top: auto;
-  filter: invert(110%) brightness(100%);
+  margin: 3rem 5rem;
+  filter: invert(100%) brightness(100%);
 }
 
 .footerList{
@@ -667,7 +663,7 @@ body{
 }
 
 .sListItem svg path:hover{
-  fill: var(--primaryDarkViolet);
+  fill: var(--primaryCyan);
 }
 
 .fListItem:first-child{
@@ -677,7 +673,7 @@ body{
 
 
 .attribution {
-  font-size: 11px;
+  font-size: 13px;
   text-align: center;
   grid-column-start: 1;
   grid-column-end: end;
