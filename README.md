@@ -2,4 +2,5 @@
 
 Web development Mini Project
 
-DEMO : https://webliquid.netlify.app/
+DEMO : https://urlicious.vercel.app/
+

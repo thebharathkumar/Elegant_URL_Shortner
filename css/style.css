@@ -22,6 +22,7 @@ body{
   padding: 0;
   max-width: 1440px;
   margin: auto;
+  color: black;
 }
 
 /* ////////////////////////////////////////////// Header /////////////////////////////////////////*/
@@ -167,6 +168,7 @@ body{
   display: flex;
   margin: 2rem 4rem;
   padding: 1rem 0;
+  font-size: medium;
 }
 
 .content h1{
@@ -190,6 +192,7 @@ body{
 
 .illustration{
   margin-right:-232px;
+  color:black;
 }
 
 .getStarted{
@@ -609,6 +612,7 @@ body{
   list-style: none;
   padding-left: 0.6rem;
   padding-right: 0.8rem;
+  color:whitesmoke;
 }
 
 .fListItem{
@@ -620,11 +624,7 @@ body{
    cursor: pointer;
 }
 
-.socialIcons{
-  list-style: none;
-  display: flex;
-  cursor: pointer;
-}
+
 
 /* Media Query for handling Multicolumned Footer */
 @media only screen and (max-width:1250px){
